@@ -21,6 +21,7 @@ const Application = () => {
                 <h1>The count is: { JSON.stringify(count) }.</h1>
                 <button onClick={() => dispatch(increment())}>INCREMENT.</button>
                 <button onClick={() => dispatch(decrement())}>DECREMENT.</button>
+                <button onClick={() => dispatch(incrementByAmount(3))}>INCREMENT BY 3.</button>
             </div>
         </div>
     )
